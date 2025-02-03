@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Recommender</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+    <nav>
+        <div class="nav-container">
+            <h1>Movie Recommender</h1>
+            <div class="search-bar">
+                <input type="text" placeholder="Search movies...">
+                <button>Search</button>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Movie Rating Section -->
+        <section class="rating-section">
+            <h2>Rate These Movies</h2>
+            <div class="movie-grid">
+                <!-- Movie Cards -->
+                <div class="movie-card">
+                    
+                    <h3>The Shawshank Redemption</h3>
+                    <div class="rating">
+                        <select>
+                            <option value="">Select Rating</option>
+                            <option value="1">1 Star</option>
+                            <option value="2">2 Stars</option>
+                            <option value="3">3 Stars</option>
+                            <option value="4">4 Stars</option>
+                            <option value="5">5 Stars</option>
+                        </select>
+                    </div>
+                </div>
+                
+
+                <div class="movie-card">
+                    <h3>The Godfather</h3>
+                    <div class="rating">
+                        <select>
+                            <option value="">Select Rating</option>
+                            <option value="1">1 Star</option>
+                            <option value="2">2 Stars</option>
+                            <option value="3">3 Stars</option>
+                            <option value="4">4 Stars</option>
+                            <option value="5">5 Stars</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <button class="recommend-btn">Get Recommendations</button>
+        </section>
+
+        <!-- Recommendations Section -->
+        <section class="recommendations">
+            <h2>Recommended Movies</h2>
+            <div class="recommended-grid">
+                <!-- Recommended Movie Cards will be added here -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Movie Recommender. All rights reserved.</p>
+    </footer>
+</body>
+</html>
